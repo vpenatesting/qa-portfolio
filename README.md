@@ -22,17 +22,29 @@ I am currently building my skills in software testing, including:
 
 # QA Projects
 
-## Project 1: SauceDemo E-commerce Testing
+## Project 1: SauceDemo E-commerce Manual Testing
 
-Testing a demo e-commerce application to practice manual testing skills.
+**Status: Completed**
 
-Includes:
+Tested a demo e-commerce application to practice manual software testing skills.
+
+### Testing Covered:
+- User Login
+- Negative Login Scenarios
+- Product Inventory
+- Product Sorting
+- Shopping Cart
+- Checkout Process
+- Order Completion
+- Logout
+
+### QA Deliverables:
 - Test Plan
-- Test Cases
+- 10 Manual Test Cases
 - Bug Reports
+- Test Execution Results
 - Test Summary Report
-
-Status: In Progress
+- Screenshots/Test Evidence
 
 ---
 
