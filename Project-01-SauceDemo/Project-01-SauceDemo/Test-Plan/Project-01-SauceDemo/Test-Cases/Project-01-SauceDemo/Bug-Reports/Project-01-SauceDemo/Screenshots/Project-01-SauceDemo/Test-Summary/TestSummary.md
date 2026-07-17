@@ -82,3 +82,17 @@ The identified issues were documented using standard defect reporting practices.
 ## Recommendation
 
 The application is suitable for further testing after addressing open defects and completing regression testing.
+
+
+## Test Evidence
+
+Screenshots were captured during test execution to document test results and application behavior.
+
+Evidence includes:
+
+- Successful login
+- Login validation error
+- Product added to cart
+- Checkout workflow
+- Order completion
+
