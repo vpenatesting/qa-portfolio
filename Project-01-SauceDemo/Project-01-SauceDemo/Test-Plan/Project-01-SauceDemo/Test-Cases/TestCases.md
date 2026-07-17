@@ -18,10 +18,10 @@
 User should successfully log in and see the Products page.
 
 **Actual Result:**
-(To be completed during execution)
+User successfully logged in and Products page displayed.
 
 **Status:**
-Not Executed
+Pass
 
 
 ---
@@ -44,11 +44,10 @@ Not Executed
 An error message should display indicating login failure.
 
 **Actual Result:**
-(To be completed during execution)
+An error message "Epic sadface: Username and password do not match any user in this service" was displayed. User was not able to log in and remained on the login page.
 
 **Status:**
-Not Executed
-
+Pass
 
 ---
 
@@ -70,10 +69,11 @@ Not Executed
 Required field validation message should appear.
 
 **Actual Result:**
-(To be completed during execution)
+
+An error messae "Epic sadface: Username is required" was displayed. User was not able to log in and remained on the login page.
 
 **Status:**
-Not Executed
+Pass
 
 
 ---
@@ -96,10 +96,10 @@ Not Executed
 Selected product should appear in the cart.
 
 **Actual Result:**
-(To be completed during execution)
+The selected product was successfully added to the shopping cart. The cart icon displayed the item count, and the product appeared in the cart with the correct name and details.
 
 **Status:**
-Not Executed
+Pass
 
 
 ---
@@ -121,7 +121,7 @@ Not Executed
 Product should be removed from the cart.
 
 **Actual Result:**
-(To be completed during execution)
+The selected product was successfully removed from the shopping cart. The product was no longer displayed, and the cart item count was updated.
 
 **Status:**
-Not Executed
+Pass
