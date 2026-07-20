@@ -57,3 +57,30 @@ The API returned status code 201 Created. The response contained the submitted d
 
 **Status:**
 Pass
+
+
+
+
+
+## Test Case 3: Verify PUT Request Updates an Existing Post
+
+**Test Case ID:** API_TC003
+
+**Test Scenario:**
+Verify that a PUT request updates an existing resource.
+
+**Request Method:**
+PUT
+
+**Endpoint:**
+https://jsonplaceholder.typicode.com/posts/1
+
+**Expected Result:**
+- Response status code should be 200 OK.
+- Response should contain the updated title and body.
+
+**Actual Result:**
+The API returned status code 200 OK. The response contained the updated title and body values.
+
+**Status:**
+Pass
