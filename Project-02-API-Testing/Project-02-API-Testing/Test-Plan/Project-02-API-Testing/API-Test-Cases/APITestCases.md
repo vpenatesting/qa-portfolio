@@ -24,3 +24,36 @@ Response contained userId, id, title, and body fields.
 
 **Status:**
 Pass
+
+
+
+## Test Case 2: Verify POST Request Creates a New Post
+
+**Test Case ID:** API_TC002
+
+**Test Scenario:**
+Verify that a POST request successfully creates a new resource.
+
+**Request Method:**
+POST
+
+**Endpoint:**
+https://jsonplaceholder.typicode.com/posts
+
+**Request Body:**
+{
+  "title": "QA Portfolio Test",
+  "body": "Testing POST request using Postman",
+  "userId": 1
+}
+
+**Expected Result:**
+- Response status code should be 201 Created.
+- Response should include the submitted data.
+- Response should include a newly assigned id.
+
+**Actual Result:**
+The API returned status code 201 Created. The response contained the submitted data along with a generated id.
+
+**Status:**
+Pass
