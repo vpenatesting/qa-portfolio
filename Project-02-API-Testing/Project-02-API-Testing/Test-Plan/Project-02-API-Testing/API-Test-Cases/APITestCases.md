@@ -84,3 +84,27 @@ The API returned status code 200 OK. The response contained the updated title an
 
 **Status:**
 Pass
+
+
+
+## Test Case 4: Verify DELETE Request Removes a Post
+
+**Test Case ID:** API_TC004
+
+**Test Scenario:**
+Verify that a DELETE request successfully removes a resource.
+
+**Request Method:**
+DELETE
+
+**Endpoint:**
+https://jsonplaceholder.typicode.com/posts/1
+
+**Expected Result:**
+- Response status code should indicate a successful delete (200 OK or 204 No Content).
+
+**Actual Result:**
+The API returned a successful response indicating the delete request was processed.
+
+**Status:**
+Pass
