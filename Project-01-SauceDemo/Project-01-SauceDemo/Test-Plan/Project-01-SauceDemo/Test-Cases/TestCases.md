@@ -70,7 +70,7 @@ Required field validation message should appear.
 
 **Actual Result:**
 
-An error messae "Epic sadface: Username is required" was displayed. User was not able to log in and remained on the login page.
+An error message "Epic sadface: Username is required" was displayed. User was not able to log in and remained on the login page.
 
 **Status:**
 Pass
